@@ -1,0 +1,360 @@
+[
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.CategorieController",
+    "Method": "GetAllCategorie",
+    "RelativePath": "api/categorie",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.CategorieController",
+    "Method": "CreateCategorie",
+    "RelativePath": "api/categorie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categorieDto",
+        "Type": "E_commerce_fashion_store.Dtos.Categorie.CreateCategorieDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.CategorieController",
+    "Method": "GetByIdCategorie",
+    "RelativePath": "api/categorie/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.CategorieController",
+    "Method": "UpdateCategorie",
+    "RelativePath": "api/categorie/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateCategorieDto",
+        "Type": "E_commerce_fashion_store.Dtos.Categorie.UpdateCategorieDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.CategorieController",
+    "Method": "DeleteCategorie",
+    "RelativePath": "api/categorie/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.GenderController",
+    "Method": "GetAllGender",
+    "RelativePath": "api/gender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.GenderController",
+    "Method": "CreateGenderAsync",
+    "RelativePath": "api/gender",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genderDto",
+        "Type": "E_commerce_fashion_store.Dtos.Gender.CreateGenderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.GenderController",
+    "Method": "GetGenderById",
+    "RelativePath": "api/gender/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.GenderController",
+    "Method": "UpDateGenderAsync",
+    "RelativePath": "api/gender/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateGenderDto",
+        "Type": "E_commerce_fashion_store.Dtos.Gender.UpdateGenderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.GenderController",
+    "Method": "DeleteGenderAsync",
+    "RelativePath": "api/gender/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.ProductController",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsDecsending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDto",
+        "Type": "E_commerce_fashion_store.Dtos.Product.CreateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "productDto",
+        "Type": "E_commerce_fashion_store.Dtos.Product.UpdateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.ProductController",
+    "Method": "GetProductBySlug",
+    "RelativePath": "api/product/{slug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.TagController",
+    "Method": "GetAllTag",
+    "RelativePath": "api/tag",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.TagController",
+    "Method": "CreateTag",
+    "RelativePath": "api/tag",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TagDto",
+        "Type": "E_commerce_fashion_store.Dtos.Tag.CreateTagDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.TagController",
+    "Method": "GetTagById",
+    "RelativePath": "api/tag/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.TagController",
+    "Method": "UpdateTag",
+    "RelativePath": "api/tag/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateTagDto",
+        "Type": "E_commerce_fashion_store.Dtos.Tag.UpdateTagDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_commerce_fashion_store.Controllers.TagController",
+    "Method": "DeleteTag",
+    "RelativePath": "api/tag/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
